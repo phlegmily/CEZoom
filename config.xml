@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "https://www.w3.org/ns/widgets"
+	xmlns:gap = "https://phonegap.com/ns/1.0"
+	id = "org.laphonegap.helloworld"
+	versionCode = "10"
+	version = "1.0.0">
+	
+<preference name="permissions" value="none"/>
+	
+<name>CE Zoom App</name>
+
+<description>
+	Mobile application for CE Zoom.
+</description>
+
+<author href="https://cezoom.com">
+	Emily Thiel
+</author>
+	
+</widget>
