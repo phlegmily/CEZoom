@@ -36,13 +36,6 @@ var app = {
         var parentElement = document.getElementById(id);
         var listeningElement = parentElement.querySelector('.listening');
         var receivedElement = parentElement.querySelector('.received');
-	//set login page for inappbrowser
-	//var login = window.open('https://www.cezoom.com/login/index.php?u=username?p=password', '_blank', 'location=yes');
-		
-	//login.addEventListener('loadstart', function(event) { alert('start: ' + event.url); });
-        //login.addEventListener('loadstop', function(event) { alert('stop: ' + event.url); });
-        //login.addEventListener('loaderror', function(event) { alert('error: ' + event.message); });
-        //login.addEventListener('exit', function(event) { alert(event.type); });
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
